@@ -10,7 +10,6 @@ class UsersList extends React.Component{
   }
 
   list(){
-    console.log(`users: ${JSON.stringify(this.props.users)}`);
     return this.props.users.map((user, index) => (
       <div key={index} className="card">
         <div className="card-block">
